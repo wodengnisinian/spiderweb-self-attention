@@ -1,0 +1,16 @@
+Group,Variant,AccMean,AccStd,F1Mean,F1Std,CountMean,DeltaPP_vs_A
+short,A_Transformer,0.7953,0.0272,0.7920,0.0279,279,+0.00
+short,B_Position,0.8027,0.0261,0.7997,0.0276,279,+0.74
+short,C_SimpleStructure,0.8003,0.0246,0.7973,0.0251,279,+0.50
+short,D_SpiderWeb,0.8113,0.0398,0.8086,0.0412,279,+1.60
+short,E_RandomBias,0.7808,0.0275,0.7774,0.0304,279,-1.45
+medium,A_Transformer,0.7797,0.0145,0.7768,0.0129,311,+0.00
+medium,B_Position,0.7914,0.0207,0.7885,0.0195,311,+1.17
+medium,C_SimpleStructure,0.7994,0.0222,0.7974,0.0219,311,+1.97
+medium,D_SpiderWeb,0.8044,0.0158,0.8023,0.0161,311,+2.47
+medium,E_RandomBias,0.7836,0.0163,0.7799,0.0143,311,+0.39
+long,A_Transformer,0.7794,0.0969,0.5679,0.0604,10,+0.00
+long,B_Position,0.7961,0.0821,0.5721,0.0581,10,+1.67
+long,C_SimpleStructure,0.8128,0.0595,0.5939,0.0496,10,+3.33
+long,D_SpiderWeb,0.8128,0.0595,0.5942,0.0494,10,+3.33
+long,E_RandomBias,0.7183,0.1047,0.5358,0.0830,10,-6.11
