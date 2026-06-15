@@ -1,0 +1,11 @@
+seed,model,accuracy
+42,A_Transformer,0.7850
+42,D_SpiderWeb,0.8050
+123,A_Transformer,0.7983
+123,D_SpiderWeb,0.8167
+2024,A_Transformer,0.7767
+2024,D_SpiderWeb,0.8167
+3407,A_Transformer,0.7800
+3407,D_SpiderWeb,0.8117
+9999,A_Transformer,0.7867
+9999,D_SpiderWeb,0.8250

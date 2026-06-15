@@ -9,7 +9,7 @@ from analysis_extras import run_inference_and_export,generate_paper_report
 
 def main():
     # Determine output dir
-    out_dir=os.path.join(BASE,"phase3_statistical_analysis")
+    out_dir=os.path.join(BASE,"phase4_paper_ready")
     os.makedirs(out_dir,exist_ok=True)
 
     # Load data
@@ -46,3 +46,4 @@ def main():
 
 if __name__=="__main__":
     main()
+
