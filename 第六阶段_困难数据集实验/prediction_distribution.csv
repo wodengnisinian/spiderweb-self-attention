@@ -1,0 +1,7 @@
+seed,model,collapse,pred_class_0,pred_class_1,pred_class_2,pred_class_3,pred_class_4,pred_class_5,pred_class_6,pred_class_7
+42,A_Transformer,NO,25,21,27,22,26,30,28,21
+42,E_SpiderWeb,NO,29,30,20,28,29,18,30,16
+123,A_Transformer,NO,24,28,18,21,34,24,20,31
+123,E_SpiderWeb,NO,29,24,19,27,23,27,25,26
+2024,A_Transformer,NO,29,20,30,16,26,15,23,41
+2024,E_SpiderWeb,NO,24,29,23,19,28,24,24,29
