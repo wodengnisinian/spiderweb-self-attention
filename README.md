@@ -2,13 +2,17 @@
 
 ## 基于 Transformer 的字符级结构偏置注意力机制
 
-**Version**: SpiderWeb-v0.1-stable | **Author**: SpiderWeb Team | **Date**: 2026-06
+**Version**: SpiderWeb-v0.1-stable | **Author**: 张彪 | **Date**: 2026-06
 
 ---
 
 ## 1. 项目概述
 
 SpiderWeb Self-Attention 是一种面向中文长文本理解的**结构偏置注意力机制**。它在 Transformer 自注意力的基础上引入一个结构偏置矩阵 M_web，模拟文章"中心→支撑→描述"的三层层级关系，引导模型关注核心内容。
+
+## 注：此项目为测试项目，并未进行真实的 中/英文 文章 数据测试作者实力有限，且作者的本意是使用这个机制，使智能模型快速理解文章含义且降低硬件设施的损耗。
+
+---
 
 **核心公式**：
 
@@ -163,13 +167,13 @@ python finalize_v2.py
 
 ```
 @techreport{SpiderWeb-v0.1,
-  title    = {SpiderWeb Self-Attention: Structural Bias Attention Mechanism for Chinese Long-Text Understanding},
+  title   = {SpiderWeb Self-Attention: Structural Bias Attention Mechanism for Chinese Long-Text Understanding},
   version  = {v0.1-stable},
   year     = {2026},
   note     = {5-seed experiment, +2.97pp over Transformer baseline, consistency-verified}
 }
 ```
-
+ 
 ---
 
 ## 9. 许可证
